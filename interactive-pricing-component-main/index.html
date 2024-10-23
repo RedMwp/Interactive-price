@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <img src="images/pattern-circles.svg" alt="logo"/>
+    <h1>Simple, traffic-based pricing</h1>
+    <p>Sign-up for our 30-day trial. No credit card required.</p>
+  </header>
+  <article class="pricing">
+    <section class="pricing-body">
+      <section class="pricing-body-head">
+        <h2>100k Pageviews</h2> <p> <span class="pricing-amount">$16.00</span>/<span class="pricing-due">month</span></p>
+      </section>
+      <section class="pricing-ranger">
+        <input type="range" min="10" max="200" value="16" id="range" step="1"/>
+        <label for="check">
+          
+          <p>monthly billing</p>
+          <input type="checkbox" id="check"/>
+          <div class="custom-check">
+            <div class="ball">
+              
+            </div>
+          </div>
+          <p>yearly billing <em> 25% discount</em></p>
+          
+        </label>
+      </section>
+    </section>
+    
+    <section class="pricing-bottom">
+      <ul>
+        <li><img src="images/icon-check.svg"/>Unlimited websites</li>
+        <li><img src="images/icon-check.svg"/>100% data ownership</li>
+        <li><img src="images/icon-check.svg"/>Email reports</li>
+      </ul>
+      
+      <button class="cta-btn">
+        Start my trial
+      </button>
+    </section>
+  </article>
+  
+
+  
+  
+  
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  
+  <div class="popup">
+    <div class="popup-before">
+    </div>
+    your data has been submited!
+    
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
